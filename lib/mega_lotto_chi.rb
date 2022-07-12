@@ -2,7 +2,11 @@
 
 require_relative "mega_lotto_chi/version"
 
+begin
+  require "pry"
+  rescue => LoadError 
+end
+
 module MegaLottoChi
-  class Error < StandardError; end
   # Your code goes here...
 end
