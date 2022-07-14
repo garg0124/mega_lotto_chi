@@ -19,7 +19,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 ## Usage
 
 ```ruby
-MegaLottoChi::Drawing.new.draw # => [23, 2,12, 4, 3]
+MegaLottoChi::Drawing.new.draw # => [23, 2, 12, 4, 3, 56]
 ```
 
 ## Development
