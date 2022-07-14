@@ -9,8 +9,8 @@ module MegaLottoChi
         expect(drawing).to be_a(Array)
       end
 
-      it "returns an array with 5 element" do
-        expect(drawing.size).to eq(5)
+      it "returns an array with 6 element" do
+        expect(drawing.size).to eq(6)
       end
 
       it "each element is an Integer" do
