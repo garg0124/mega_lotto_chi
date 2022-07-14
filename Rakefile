@@ -8,5 +8,5 @@ RSpec::Core::RakeTask.new(:spec)
 task default: :spec
 
 task :console do
-  exec "irb -r mega_lotto -I ./lib"
+  exec "irb -r mega_lotto_chi -I ./lib"
 end
